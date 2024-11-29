@@ -1,4 +1,4 @@
-.back-section {
+.banner-section {
     background-image: url('/img/bg.png'); 
     background-size: cover;
     background-position: center;
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.back-text {
+.banner-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,13 +17,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.back-text h1 {
+.banner-text h1 {
     font-size: 3rem;
     font-weight: bold;
     margin: 0;
 }
 
-.back-text p {
+.banner-text p {
     font-size: 1.5rem;
     margin: 10px 0;
 }
