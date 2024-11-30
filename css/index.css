@@ -1,10 +1,11 @@
 .banner-section {
-    background-image: url('/img/bg.png'); 
+    background-image: url('/img/banner2.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Sticky effect */
-    height: 60vh; 
+    height: 65vh; 
     position: relative;
+    box-shadow: inset 0 0 0 2000px #4745457a;
 }
 
 .banner-content {
@@ -15,6 +16,7 @@
     color: white; /* Text color */
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .banner-content h1 {
@@ -27,3 +29,15 @@
     font-size: 1.5rem;
     margin: 10px 0;
 }
+
+/* search bar */
+.search-bar {
+    color: #ff5733; 
+}
+.btn-secondary{
+    background-color: rgb(9, 195, 121);
+}
+.btn-secondary:hover{
+    background-color: rgb(2, 94, 57);
+}
+
