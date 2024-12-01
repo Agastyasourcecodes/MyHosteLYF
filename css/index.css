@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Sticky effect */
-    height: 65vh; 
+    height: 70vh; 
     position: relative;
     box-shadow: inset 0 0 0 2000px #4745457a;
 }
@@ -41,3 +41,46 @@
     background-color: rgb(2, 94, 57);
 }
 
+/* about us */
+.about-us-section {
+    background-color: #f9f9f9;
+    padding: 60px 0; /* Space above and below */
+}
+
+.about-us-section .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; /* Space out the child divs */
+    flex-wrap: wrap; /* Ensure responsiveness */
+    text-align: center;
+}
+
+.about-us-image-left, .about-us-image-right {
+    flex: 1; /* Take equal space for images */
+    max-width: 30%; 
+    text-align: center; /* Center the image */
+}
+
+.about-us-image-left img, .about-us-image-right img {
+    width: 100%; /* Make images responsive */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.about-us-text {
+    flex: 2; /* Take more space for the text */
+    padding: 0 20px; /* Add spacing on the sides */
+    text-align: center; 
+}
+
+.about-us-text h2 {
+    font-size: 2.5rem; /* Title size */
+    margin-bottom: 50px; /* Space below the title */
+    color: #000000; /* Darker text color */
+}
+
+.about-us-text p {
+    font-size: 1.2rem; /* Text size */
+    margin: 10px 0; /* Spacing between paragraphs */
+    line-height: 1.6;
+    color: #666; /* Slightly lighter text color */
+}
