@@ -43,8 +43,8 @@
 
 /* about us */
 .about-us-section {
-    background-color: #f9f9f9;
-    padding: 60px 0; /* Space above and below */
+    background-color: #f9f9f9; 
+    padding: 50px 0; /* Space above and below */
 }
 
 .about-us-section .container {
@@ -57,10 +57,18 @@
 
 .about-us-image-left, .about-us-image-right {
     flex: 1; /* Take equal space for images */
-    max-width: 30%; 
-    text-align: center; /* Center the image */
+    max-width: 50%; /* Limit the image size */
+    max-height: 50%;
+    text-align: center; 
+    margin-top: 70px;
+}
+.about-us-image-left {
+    margin-left: -150px; /* Push image farther to the left */
 }
 
+.about-us-image-right {
+    margin-right: -150px; /* Push image farther to the right */
+}
 .about-us-image-left img, .about-us-image-right img {
     width: 100%; /* Make images responsive */
     border-radius: 10px; /* Add rounded corners */
@@ -68,46 +76,25 @@
 
 .about-us-text {
     flex: 2; /* Take more space for the text */
-    padding: 0 20px; /* Add spacing on the sides */
-    text-align: center; 
+    padding: 0 40px; /* Add spacing on the sides */
+    text-align: center; /* Center text */
 }
 
 .about-us-text h2 {
-    font-size: 2.5rem; /* Title size */
-    margin-bottom: 50px; /* Space below the title */
-    color: #000000; /* Darker text color */
+    font-size: 2.5rem; 
+    margin-bottom: 50px; 
+    color: #333; 
 }
 
 .about-us-text p {
-    font-size: 1.2rem; /* Text size */
-    margin: 10px 0; /* Spacing between paragraphs */
-    line-height: 1.6;
-    color: #666; /* Slightly lighter text color */
-}
-html {
-    scroll-behavior: smooth;
-}
-.about-us-image-left, .about-us-image-right {
-    margin-right: 70px; /* Adds space between the image and the text */
-}
-
-.about-us-text {
-    margin-right: 70px; /* Adds space between the text and the left image */
-   /* Adds space between the text and the right image */
-}
-
-.about-us-image-left, .about-us-image-right {
-    margin-right: 20px;
-    transition: transform 0.3s ease; /* Smooth transition for image enlargement */
+    font-size: 1.2rem; 
+    margin: 10px 0; 
+    line-height: 1.6; 
+    color: #666; 
 }
 
 .about-us-image-left:hover, .about-us-image-right:hover {
     transform: scale(1.1); /* Enlarge the image by 10% on hover */
-}
-
-.about-us-text {
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 
