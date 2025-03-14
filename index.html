@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NestAway</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
-</head>   
+
+</head>
+
 <body>
     <div class="header sticky-top">
         <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="index.html">
-                <img src="/img/logomain.png.png" alt="Logo here"/>
+                <img src="/img/logomain.png.png" alt="Logo here" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar">
                 <span class="navbar-toggler-icon"></span>
@@ -28,17 +33,35 @@
                         </a>
                     </li>
                     <div class="nav-vl"></div>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">
-                            <i class="fas fa-sign-in-alt"></i>Login
+                            <i class="fas fa-sign-in-alt"></i> Login
                         </a>
                     </li>
-                   
                     <div class="nav-vl"></div>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#signup-modal">
-                            <i class="fas fa-user"></i>Signup
+                            <i class="fas fa-user"></i> Signup
                         </a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="property_detail.html">
+                            <i class="fas fa-home"></i> Property Detail
+                        </a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="property_list.html">
+                            <i class="fas fa-list"></i> Property List
+                        </a>
+                    </li>
+                    
+
                     </li>
                 </ul>
             </div>
@@ -51,7 +74,8 @@
             <p>Find your perfect home away from home</p>
             <form id="search-form">
                 <div class="input-group city-search">
-                    <input type="text" class="form-control input-city" id='city' name='city' placeholder="Enter your city" />
+                    <input type="text" class="form-control input-city" id='city' name='city'
+                        placeholder="Enter your city" />
                     <div class="input-group-append">
                         <button type="submit" class="btn btn-secondary">
                             <i class="fa fa-search search-bar"></i>
@@ -63,20 +87,26 @@
     </div>
 
 
-    <div id ="about-us" class="about-us-section">
+
+
+    </div>
+
+    <div id="about-us" class="about-us-section">
         <div class="container d-flex">
             <!-- Left Image -->
             <div class="about-us-image-left">
                 <img src="/img/hostel1.jpeg" alt="About Us Image Left" />
             </div>
-    
+
             <!-- Middle Text -->
             <div class="about-us-text">
                 <h2>We at NestAway</h2>
-                <p>Welcome to NestAway! We strive to provide a home away from home with comfort, affordability, and a great community.</p>
-                <p>Our mission is to make finding your perfect PG or shared home hassle-free. Whether you're a student, working professional, or just someone looking for a cozy place to stay, we've got you covered!</p>
+                <p>Welcome to NestAway! We strive to provide a home away from home with comfort, affordability, and a
+                    great community.</p>
+                <p>Our mission is to make finding your perfect PG or shared home hassle-free. Whether you're a student,
+                    working professional, or just someone looking for a cozy place to stay, we've got you covered!</p>
             </div>
-    
+
             <!-- Right Image -->
             <div class="about-us-image-right">
                 <img src="/img/hostel2.jpeg" alt="About Us Image Right" />
@@ -126,7 +156,8 @@
     <div class="banner2-container">
     </div>
 
-    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-heading" aria-hidden="true">
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-heading"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -153,7 +184,8 @@
                                     <i class="fas fa-lock"></i>
                                 </span>
                             </div>
-                            <input type="password" class="form-control" name="password" placeholder="Password" minlength="6" required>
+                            <input type="password" class="form-control" name="password" placeholder="Password"
+                                minlength="6" required>
                         </div>
 
                         <div class="form-group">
@@ -175,4 +207,5 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
