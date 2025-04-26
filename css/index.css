@@ -143,3 +143,101 @@ color: #333;
 
 
 }
+.button {
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    padding: 4px 20px;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #00C389; /* New logo green */
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    background-color: #00C389; /* New logo green */
+    color: #ffffff;
+  }
+  
+  .second-section__header {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  .second-section__cards {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .cards__card > img {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1.5px solid #ffffff9c;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+  
+  .cards__card > p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a3d3f; /* A deep teal to contrast */
+    color: #ffffff;
+    padding: 48px;
+  }
+  
+  .third-section__quote {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 60%;
+  }
+  
+  .quote__quote {
+    font-size: 36px;
+  }
+  
+  .quote__sub {
+    text-align: right;
+    color: #ffffffa9;
+    padding-right: 30px;
+  }
+  
+  .fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00C389; /* Same logo green */
+    color: #ffffff;
+    padding: 56px;
+  }
+  
+  .fourth-section__card {
+    background-color: #0a3d3f; /* Deep background for card */
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px;
+  }
+  
+  .footer {
+    background-color: #0a3d3f; /* Match card dark green */
+    color: #ffffff;
+    padding: 32px;
+    text-align: center;
+  }
+  
